@@ -29,6 +29,7 @@
 
 
 //Principales caracteristicas:
+
 -Aplicativo fácil de usar
 -Visualmente atractivo
 -Intuitivo
