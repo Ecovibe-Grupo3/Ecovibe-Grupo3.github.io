@@ -1,6 +1,5 @@
 //Información del proyecto: 
-
-
+-El proyecto trata sobre una aplicación para realizar el cálculo de la huella de carnbono de los giuientes segmentos: Adultos y Jóvenes, familias e Instituciones educativas. La aplicación esta diseñada para poder medir el impacto ambiental de las actividades meidante un registro de actividades que el usuario registre. Además nuestro proyecto esta enfocado en ayudar a las personas a poder medir su impacto ambiental y que tomen conciencia de su impacto ambiental.
 
 
 //Autores:
@@ -29,5 +28,9 @@
 
 
 //Principales caracteristicas:
-
-
+-Aplicativo fácil de usar
+-Visualmente atractivo
+-Intuitivo
+-Sistema de recompensas
+-Recomendaciones y consejos personalizados
+-Sstema de noticias y foros
