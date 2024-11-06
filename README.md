@@ -1,8 +1,9 @@
-Información del proyecto: 
+//Información del proyecto: 
 
 
 
-Autores:
+
+//Autores:
 
 -Alvarado Cruz Dayana Nicolle
 
@@ -16,7 +17,8 @@ Autores:
 
 
 
-Segmentos Objetivos:
+
+//Segmentos Objetivos:
 
 -Adultos y Jóvenes:  Abiertos a herramientas que les permitan medir y reducir su impacto ambiental, alineándose con sus valores personales y aspiraciones profesionales. Muchos de ellos desean ser agentes de cambio en sus comunidades, promoviendo la sostenibilidad entre sus pares.
 
@@ -25,6 +27,7 @@ Segmentos Objetivos:
 -Instituciones educativas: Este grupo suele valorar la educación integral, el compromiso con la comunidad, y la responsabilidad social y ambiental. Los responsables de estas instituciones son conscientes del impacto ecológico de sus operaciones y buscan formas de mejorar su eficiencia energética y prácticas sostenibles. Además, suelen estar abiertos a adoptar nuevas tecnologías y herramientas que promuevan una gestión más consciente y que, a su vez, refuercen su imagen como promotores de un futuro sostenible.
 
 
-Principales caracteristicas:
+
+//Principales caracteristicas:
 
 
