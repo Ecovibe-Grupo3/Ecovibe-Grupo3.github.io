@@ -6,9 +6,13 @@ Autores:
 -Alvarado Cruz Dayana Nicolle
 
 -Angulo Altamirano Antuaneth Angie
+
 -Leyva Vega Angie Milene
+
 -Ricaldez Montalvo Jhean Rosel
+
 -Risco Morales Renzo Fabrizio
+
 
 Segmentos Objetivos:
 
