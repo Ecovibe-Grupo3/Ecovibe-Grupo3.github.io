@@ -1,47 +1,4 @@
-body {
-    background-color: #fcead7;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-  }
-  /* Header */
-  .topheader {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10px;
-    margin-bottom: 0;
-  }
-  .logo {
-    display: flex;
-    align-items: center;
-    margin-right: 20px; /* Espacio entre el logo y E-SPORTS */
-  }
-  .e-sports {
-    margin-left: -620px;
-    font-size: 20px;
-    color: #213343;
-    text-decoration: none;
-  }
-  .menu-horizontal {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 20px;
-    margin: 0;
-    width: 100%;
-    max-width: 1200px;
-  }
-  .menu-horizontal li {
-    margin-right: auto;
-  }
+M
   .border-button {
     padding: 10px 15px;
     margin-left: 10px;
