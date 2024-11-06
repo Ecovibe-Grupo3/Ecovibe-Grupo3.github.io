@@ -2,6 +2,7 @@ Información del proyecto:
 
 
 Autores:
+
 -Alvarado Cruz Dayana Nicolle
 -Angulo Altamirano Antuaneth Angie
 -Leyva Vega Angie Milene
