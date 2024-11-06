@@ -31,8 +31,13 @@
 //Principales caracteristicas:
 
 -Aplicativo fácil de usar
+
 -Visualmente atractivo
+
 -Intuitivo
+
 -Sistema de recompensas
+
 -Recomendaciones y consejos personalizados
+
 -Sstema de noticias y foros
