@@ -2,11 +2,11 @@
 const form = document.querySelector('form[name="login-form"]');
 
 form.addEventListener("submit", (event) => {
-  const femail = form.elements["femail"].value.trim();
+  const fcorreo = form.elements["fcorreo"].value.trim();
   const fpassword = form.elements["fpassword"].value.trim();
 
   // Validar campos vacíos
-  if (!femail || !fpassowrd) {
+  if (!fcorreo || !fpassowrd) {
     event.preventDefault(); // Evita el envío del formulario
     alert("Por favor, complete todos los campos requeridos.");
     return; // Sale de la función para no continuar con el envío
