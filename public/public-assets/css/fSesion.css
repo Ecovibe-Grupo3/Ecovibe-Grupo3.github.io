@@ -1,3 +1,4 @@
+/* Footer */
 .bottom {
   display: flex;
   justify-content: center;
@@ -7,24 +8,20 @@
   background-color: #35966e;
   position: fixed;
   bottom: 0;
-  margin-top: auto;
 }
 
+/* Lista de links en el footer */
 .abajo {
-  margin-left: 160px;
   display: flex;
   list-style: none;
-  font-size: 30px;
-  width: 100%;
-  justify-content: flex-start;
+  font-size: 20px; /* Tamaño de fuente más pequeño */
+  justify-content: space-around;
+  width: 80%;
+  padding: 0;
 }
 
 .abajo li {
-  margin-top: 5px;
   color: white;
-  margin-right: 200px;
-  font-size: 25px;
-  display: flex;
 }
 
 .abajo li a {
@@ -35,23 +32,26 @@
 .abajo li a:hover {
   text-decoration: underline;
 }
+
+/* Estilo para EcoVibe */
 .EcoVibe a {
   text-decoration: none;
   color: inherit;
 }
 
+/* Contenedor principal */
 .main-content {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Coloca los elementos en columna */
   align-items: center;
-  max-width: 43cm;
-  margin-left: 200px;
+  max-width: 1000px;
+  margin: 0 auto; /* Centra el contenedor en la página */
+  padding-top: 50px; /* Espacio en la parte superior */
 }
 
+/* Imagen de hoja */
 .hoja img {
-  position: relative;
-  margin-right: 100px;
-  width: 13cm;
-  height: 15cm;
+  width: 200px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+  margin-bottom: 20px;
 }
-
