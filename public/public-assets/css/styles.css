@@ -223,25 +223,11 @@ header {
   margin-left: 60px;
 }
 
-.noticias-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
-.noticia-card {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.noticia-card p {
+.noticia-card figcaption {
   font-size: 14px;
   color: #555;
   text-align: center;
   margin-top: 10px;
+  line-height: 1.4;
 }
-
