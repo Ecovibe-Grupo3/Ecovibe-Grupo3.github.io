@@ -227,12 +227,10 @@ header {
 }
 
 
-.Noticias h2 {
-  margin-bottom: 30px;
-  font-size: 18px;
-  margin-right: 10cm;
-}
 
+.noticias h2 {
+  margin-left: 60px;
+}
 
 
 .noticia-card {
