@@ -168,15 +168,46 @@ header {
   margin-right: 20px;
 }
 
-.card-resumen {
-  margin-top: 20px;
-  width: 290px;
-  height: 150px;
-  background-color: #d9d9d9;
-  border-radius: 15px;
-  margin-left: 80px;
+.top-3 {
+  text-align: center;
+  margin-top: 40px;
 }
 
+.top-3 h3 {
+  font-size: 24px;
+  color: #2da67a;
+  margin-bottom: 20px;
+}
+
+/* Estilo para la sección de los usuarios en el ranking */
+.users-ranking {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Espacio entre las imágenes */
+}
+
+.user-card {
+  text-align: center;
+}
+
+.user-image {
+  width: 120px; /* Tamaño de las imágenes */
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover; /* Para asegurarse de que la imagen se ajuste bien */
+}
+
+.user-name {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Para centrar la imagen del usuario central */
+.user-card.center {
+  transform: scale(1.1); /* Aumenta un poco el tamaño de la imagen central */
+  z-index: 1; /* Coloca la imagen central encima de las otras */
+}
 .consejos {
   flex: 1;
   text-align: center;
