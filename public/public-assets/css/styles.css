@@ -219,15 +219,32 @@ header {
   color: #333;
 }
 
-.noticias h2 {
-  margin-left: 60px;
+.noticias-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+.noticia-card {
+  width: 300px; /* Ajusta el ancho según prefieras */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-.noticia-card figcaption {
+.noticia-card iframe {
+  width: 100%; /* Acomoda el ancho del iframe al de la tarjeta */
+  height: 200px; /* Ajusta la altura según prefieras */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.noticia-card p {
   font-size: 14px;
   color: #555;
   text-align: center;
   margin-top: 10px;
-  line-height: 1.4;
 }
