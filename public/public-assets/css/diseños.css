@@ -504,4 +504,15 @@ body {
   letter-spacing: 1.5px;
 }
 
+.Container_SN {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .Banner_SN li {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
 
