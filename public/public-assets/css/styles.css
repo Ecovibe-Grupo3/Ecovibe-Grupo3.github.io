@@ -255,3 +255,79 @@ header {
   text-align: center;
   margin-top: 10px;
 }
+@media (max-width: 768px) {
+  .menu-horizontal {
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: #c7c2c2;
+    height: 100%;
+    overflow-y: auto;
+    pointer-events: none;
+    transform: translateY(-100%);
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 999;
+  }
+  .menu-horizontal.menu_opened {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+  .menu-horizontal li {
+    padding: 0;
+  }
+  .menu-horizontal a {
+    color: black;
+    line-height: 70px;
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .menu-horizontal a:hover,
+  .menu-horizontal a.selected {
+    color: #0712ed;
+    text-decoration: underline;
+  }
+  .menu-vertical {
+    position: absolute;
+    left: 100%; /* Submenú a la derecha del elemento principal /
+    top: 0;
+    background-color: #c7c2c2;
+    display: none; / Oculto hasta que el menú principal esté activo /
+  }
+  .menu-horizontal li:hover .menu-vertical {
+    display: block; / Mostrar el submenú al pasar el ratón */
+  }
+  .menu-vertical li {
+    padding: 5px 20px;
+  }
+
+  .open-menu,
+  .close-menu {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1000;
+    margin-right: 30px;
+  }
+  .close-menu {
+    align-self: flex-end;
+    padding: 20px 15px;
+  }
+
+  .open-menu:focus:not(:focus-visible),
+  .close-menu:focus:not(:focus-visible) {
+    outline: none;
+  } 
+
+
+
+
+
+
+
