@@ -1,7 +1,7 @@
 //Información del proyecto:
 
 -El proyecto trata sobre una aplicación para realizar el cálculo de la huella de carbono de los siguientes segmentos: Adultos y Jóvenes, familias e Instituciones educativas. La aplicación esta diseñada para poder medir el impacto ambiental de las actividades mediante un registro de actividades que el usuario registre. Además nuestro proyecto esta enfocado en ayudar a las personas a poder medir su impacto ambiental y que tomen conciencia de su impacto ambiental.
-
+hola
 //Autores:
 
 -Alvarado Cruz Dayana Nicolle
