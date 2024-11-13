@@ -225,13 +225,23 @@ header {
 
 .noticias-container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.noticia-card img {
-  width: 200px;
-  margin-left: 105px;
-  border-radius: 10px;
-  margin-right: 190px;
+.noticia-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
+
+.noticia-card p {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-top: 10px;
+}
+
