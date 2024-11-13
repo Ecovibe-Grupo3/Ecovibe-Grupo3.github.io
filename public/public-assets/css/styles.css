@@ -113,6 +113,8 @@ header {
   margin-left: 15px;
 }
 
+
+
 .hero {
   background: linear-gradient(to right, #c6e7e2, #f8f8d4);
   display: flex;
@@ -150,19 +152,11 @@ header {
   margin-right: 230px;
 }
 
-.resumen {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 30px;
-  background-color: #fff;
-  margin-bottom: 20px;
+.Rankings h2 {
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 2rem; /* Ajusta el tamaño del texto si es necesario */
+  margin-bottom: 20px; /* Espacio debajo del título, puedes ajustar el valor */
 }
-
-.resumen h2 {
-  margin-left: 60px;
-}
-
 
 .top-3 {
   text-align: center;
