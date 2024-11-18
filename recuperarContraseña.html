@@ -15,6 +15,106 @@
     />
   </head>
   <body>
+
+    <header class="w-full bg-gradient flex flex-col items-center">
+      <div class="container-header container">
+        <h2 class="font-title-lg color-green"><a href="index.html">EcoVibe</a></h2>
+        <div class="icon-md header-icon" data-active="false"></div>
+      </div>
+      <div class="menu-mobile text-black" id="menu-mobile" data-active="false">
+        <ul class="w-full flex flex-col gap-2 list-none">
+          <li>
+            Servicios
+            <ul class="flex flex-col gap-2 pt-2 pl-2 list-none">
+              <li>
+                <a href="#">Calculadora de huella de carbono</a>
+              </li>
+              <li>
+                <a href="#">Registro de actividades diarias</a>
+              </li>
+              <li>
+                <a href="#">Tienda</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Rakings</a>
+          </li>
+        </ul>
+        <label for="search" class="input-search" id="input-search">
+          <label for="search" data-value="search"></label>
+          <input id="search" type="search" />
+          <label for="search" data-value="close"></label>
+        </label>
+        <button class="w-full bg-green text-white outline-none border-none font-title-md rounded-md cursor-pointer">Iniciar sesión</button>
+        <div class="flex gap-2">
+          <div class="icon-md" data-value="alert"></div>
+          <div class="icon-md" data-value="store"></div>
+        </div>
+        <ul class="w-full flex flex-col gap-2 list-none">
+          <li>
+            <a href="#">Perfil</a>
+          </li>
+          <li>Cerrar sesión</li>
+        </ul>
+      </div>
+      <!-- <div class="burger_container">
+        <h2 class="title"><a href="index.html">EcoVibe</a></h2>
+        <img src="./public/assets/icons/burger.svg" alt="burger" class="burger" id="burger">
+      </div>
+      <ul class="ul">
+        <li><a href="">Servicios</a></li>
+        <li><a href="">Rankings</a></li>
+        <input type="search">
+        <div style="min-width: 220px;">
+          <button>Iniciar sesión</button>
+          <div class="userLogin">
+            <img src="./public/assets/icons/notification.svg" alt="image">
+            <img src="./public/assets/icons/dolar.svg" alt="image">
+            <img src="./public/assets/icons/user.svg" alt="image">
+          </div>
+        </div>
+      </ul> -->
+      <script>
+        let state = false;
+        const headerIcon = document.querySelector('.header-icon');
+        const menuMobile = document.querySelector('#menu-mobile');
+        const inputSearch = document.querySelector('#input-search');
+        const closeInputSearch = inputSearch.querySelector('label[data-value="close"]');
+  
+        headerIcon.addEventListener('click', () => {
+          state = !state;
+          headerIcon.setAttribute('data-active', state);
+          menuMobile.setAttribute('data-active', state);
+          document.querySelector('body').setAttribute('data-active', state);
+        });
+  
+        inputSearch.addEventListener('input', (event) => {
+          let value = event.target.value;
+          validationSearch(value);
+        });
+  
+        closeInputSearch.addEventListener('click', () => {
+          const input = inputSearch.querySelector('input');
+          input.value = "";
+          validationSearch(input.value);
+        }); 
+  
+        function validationSearch(value) {
+          if(value.length === 0) {
+            closeInputSearch.style.display = 'none';
+          } else {
+            closeInputSearch.style.display = 'flex';
+          }
+        }
+  
+        window.addEventListener('resize', () => {
+  
+        });
+  
+      </script>
+    </header>
+
     <div class="content">
       <nav class="header">
         <h2 class="EcoVibe"><a href="index.html">EcoVibe</a></h2>
